@@ -278,16 +278,3 @@ document.addEventListener("mousemove", (event) => {
 
   updateTrails();
 });
-const recipient = 'sayanbanerjee024@example.com';
-const subject = 'I want to hire';
-const body = document.getElementById('body');
-let msg="";
-body.addEventListener("change",()=>{
-     msg = body.value
-})
-function openGmail() {
-    
-    var gmailUrl = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent(recipient) + '&su=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(msg);
-    window.open(gmailUrl, '_blank');
-    location.reload();
-  }

@@ -518,22 +518,14 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-#contact form{
-  width: 700px;
-  height: 500px;
-  background-color: #852400;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
-form h1{
+
+#contact h1{
   font-size: 6em;
   color: #ff4400;
 }
-form input{
-  border: none;
-  background-color: transparent;
-  outline: 2px solid#ff4400;
+#contact h2{
+  font-size: 3em;
+  color: #ff4400;
 }
