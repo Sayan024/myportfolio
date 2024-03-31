@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <div class="header">
+        <nav>
+            <div class="logo">
+                <a href="www.linkedin.com/in/sayanbanerjee24"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Sayan024"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/print.sayan"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#Projects">Projects</a>
+            </div>
+            <button id="hireme" onclick="location.href='#contact'">
+                Hire me
+            </button>
+        </nav>
+     </div>
+     <section id="home">
+        <div class="mypic"><img src="myport.jpg" alt=""></div>
+        <div class="sintro"><i class="fa-regular fa-hand-peace"></i> Hi, I'm Sayan Banerjee.</div><!-- Small intro -->
+        <div class="headingtexthome">
+            <h2>Turning <span>code <i class="fa-solid fa-code"></i> into creative</span> solutions.</h2>
+        </div>
+     </section>
+     <hr>
+     <div class="mypro">
+        <div class="scrollpro">
+            <i class="fa-regular fa-circle-dot"></i>Web Development
+            <i class="fa-regular fa-circle-dot"></i> App Development
+            <i class="fa-regular fa-circle-dot"></i> Video Editing
+            <i class="fa-regular fa-circle-dot"></i> Ui/Ux Designer
+        </div>
+        <div class="scrollpro">
+            <i class="fa-regular fa-circle-dot"></i>Web Development
+            <i class="fa-regular fa-circle-dot"></i> App Development
+            <i class="fa-regular fa-circle-dot"></i> Video Editing
+            <i class="fa-regular fa-circle-dot"></i> Ui/Ux Designer
+        </div>
+     </div>
+     <hr>
+     <section id="About">
+        <div class="aboutleft">
+            <img src="aboutimage.png" alt="" id="abtimg">
+            <img src="sayanbanerji.png" alt="" id="abtmyname">
+        </div>
+        <div class="aboutright">
+            <h2>About Me</h2>
+            <p>Hello, I'm Sayan Banerjee from Kolkata. I'm 23 years old. Currently I'm final year student of MCA. My hobbies are listening to music and exploring new stuff on youtube.I'm a multifaceted creative professional with expertise in web development, graphic design, UI/UX design, and video editing. My web development skills encompass HTML, CSS, and JavaScript, allowing me to build functional and engaging websites. Alongside this, I offer graphic design services for posters and thumbnails.  Additionally, I am a skilled UI/UX designer, adept at creating intuitive web page designs and prototypes.  My video editing prowess includes proficiency in industry-standard tools like Adobe Premiere Pro and After Effect.</p>
+        </div>
+     </section>
+     <hr>
+     <section id="Education">
+        <div class="edu">
+            <h1>Education</h1>
+            <div class=" edurect tenth">
+                <h3>Senior Secondary, 2016-2017</h3>
+                <p>Bhavan's Netaji Subhash Chandra Bose Vidyaniketan, Haldia</p>
+            </div>
+            <div class="edurect twelveth">
+                <h3>Higher Secondary,2018-2019</h3>
+                <p>Indira Gandhi Memorial High School Dum Dum</p>
+            </div>
+            <div class="edurect bsc">
+                <h3>Graduation B.Sc. Computer Science, 2019-2022 </h3>
+                <p>Tara Devi Harakh Chand Kankaria Jain College, Kolkata</p>
+            </div>
+            <div class="edurect mca"><h3>Post-Graduation M.C.A. (On Going) 2022-2024</h3>
+                <p>Techno India University, Kolkata</p></div>
+                <div class="verboxedu"></div>
+        </div>
+     </section>
+     <hr>
+     <section id="skills">
+        <div class="skillsdis">
+            <h1>Skills</h1>
+            <div class="sr1">
+                <div class="sk">
+                    <img src="logo/html.png" alt="">
+                </div>
+                <div class="sk">
+                    <img src="logo/css.png" alt="">
+                </div>
+                <div class="sk">
+                    <img src="logo/js.png" alt="">
+                </div>
+                <div class="sk">
+                    <img src="logo/angjs.png" alt="">
+                </div>
+            </div>
+            <div class="sr2">
+                <div class="sk">
+                    <img src="logo/java.png" alt="">
+                </div>
+                <div class="sk">
+                    <img src="logo/python.png" alt="">
+                </div>
+                <div class="sk">
+                    <img src="logo/android.png" alt="">
+                </div>
+                <div class="sk">
+                    <img src="logo/figma.png" alt="">
+                </div>
+            </div>
+            <div class="sr3">
+                <div class="sk">
+                    <img src="logo/ae.png" alt="">
+                </div>
+                <div class="sk">
+                    <img src="logo/ps.png" alt="">
+                </div>
+                <div class="sk">
+                    <img src="logo/pr.png" alt="">
+                </div>
+                
+            </div>
+        
+        </div>
+
+     </section>
+     <hr>
+     <section id="Projects">
+        <div class="prj">
+            <h1>Mini Projects</h1>
+            <div class="bar">
+                <button id="web" onclick="myweb()">Web Development</button>
+                <button id="graphic" onclick="mygra()">Graphic Design</button>
+                <button id="Ui/Ux" onclick="myui()">Ui/Ux Sample</button>
+                <button id="video" onclick="myve()">Video Editing</button>
+            </div>
+            <div class="prjdis">
+                <div class="web">
+                    <div class="prjbox">
+                        <div class="prjimg">
+                            <img src="imageslider.webp" alt="">
+                        </div>
+                        <div class="prjlive">
+                            <button class="prjdemo" onclick="location.href='https://imagesliderday2.vercel.app/'">Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                            <button class="prjcode" onclick="location.href='https://github.com/Sayan024/imagesliderday2'">Code</button>
+                        </div>
+                    </div>
+                    <div class="prjbox">
+                        <div class="prjimg">
+                            <img src="day4.webp" alt="">
+                        </div>
+                        <div class="prjlive">
+                            <button class="prjdemo" onclick="location.href='https://day4-res-timeline.vercel.app/'">Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                            <button class="prjcode" onclick="location.href='https://github.com/Sayan024/day4ResTimeline'">Code</button>
+                        </div>
+                    </div>
+                    <div class="prjbox">
+                        <div class="prjimg">
+                            <img src="day8.webp" alt="">
+                        </div>
+                        <div class="prjlive"> 
+                            <button class="prjdemo" onclick="location.href='https://day8animated.vercel.app'">Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                            <button class="prjcode" onclick="location.href='https://github.com/Sayan024/day8animated'">Code</button>
+                        </div>
+                    </div>
+                    <div class="prjbox">
+                        <div class="prjimg">
+                            <img src="day9.webp" alt=""> 
+                        </div>
+                        <div class="prjlive">
+                            <button class="prjdemo" onclick="location.href='https://day9-3dhover.vercel.app/'">Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                            <button class="prjcode" onclick="location.href='https://github.com/Sayan024/day9-3dhover'">Code</button>
+                        </div>
+                    </div>
+                    <div class="prjbox">
+                        <div class="prjimg">
+                            <img src="day10.webp" alt="">
+                        </div>
+                        <div class="prjlive">
+                            <button class="prjdemo" onclick="location.href='https://day10valentine.vercel.app/'">Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                            <button class="prjcode" onclick="location.href='https://github.com/Sayan024/day10valentine'">Code</button>
+                        </div>
+                    </div>
+                    <div class="prjbox">
+                        <div class="prjimg">
+                            <img src="day6.webp" alt="">
+                        </div>
+                        <div class="prjlive">
+                            <button class="prjdemo" onclick="location.href='https://day6dayspassgen.vercel.app/'">Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                            <button class="prjcode" onclick="location.href='https://github.com/Sayan024/day6dayspassgen'">Live</button>
+                        </div>
+                    </div>
+                    <div class="prjbox">
+                        <div class="prjimg">
+                            <img src="day7.webp" alt="">
+                        </div>
+                        <div class="prjlive">
+                            <button class="prjdemo" onclick="location.href='https://day7prodrop-6jpe.vercel.app/'">Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                            <button class="prjcode" onclick="location.href='https://github.com/Sayan024/day7prodrop'">Live</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="graphic">
+                    <div class="prjbox">
+                        <img src="design/design (1).webp" alt="">
+                    </div>
+                    <div class="prjbox">
+                        <img src="design/design (2).webp" alt="">
+                    </div>
+                    <div class="prjbox">
+                        <img src="design/design (3).webp" alt="">
+                    </div>
+                    <div class="prjbox">
+                        <img src="design/design.webp" alt="">
+                    </div>
+                </div>
+                <div class="ui">
+                    <div class="prjbox">
+                        <img src="ui/Landing Page 1.png" alt="">
+                    </div>
+                    <div class="prjbox">
+                        <img src="ui/MacBook Pro 16_ - 2.png" alt="">
+                    </div>
+                </div>
+                <div class="ve">
+                    <div class="prjbox">
+                        <video src="intro youtube.mp4" autoplay muted loop controls></video>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+     </section>
+     <section id="contact">
+        
+
+  <form action="" method="post">
+    <Label for="body">Enter Message</Label>
+    <input type="text" name="body" id="body">
+    <button onclick="openGmail()">Send Mail</button>
+  </form>
+     </section>
+     
+     
+     
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="app.js"></script>
+
+</body>
+</html>
