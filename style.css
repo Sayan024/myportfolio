@@ -202,13 +202,14 @@ hr {
   align-items: center;
   justify-content: center;
   color: #ff4400;
-  position: relative;
+  
 }
 #Education .edu {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 #Education .edu h1 {
   position: absolute;
