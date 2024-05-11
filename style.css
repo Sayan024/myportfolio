@@ -526,6 +526,7 @@ h1 {
   filter: drop-shadow(10px 1px 15px orangered);
   opacity: 1;
   transition: opacity 0.2s ease-out; 
+  mix-blend-mode: difference;
 }
 .trail.fade {
   opacity: 0; 
